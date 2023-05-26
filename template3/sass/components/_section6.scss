@@ -1,0 +1,42 @@
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+.section_six
+{
+img{width:100%;}
+.col2-text{
+    padding:30px 10px;
+    h2{
+        font-family:$section-six-h2-font-family;
+        font-size:$section-six-h2-font-size;
+        color:$section-six-h2-color;
+    }
+    h3{
+        font-family:$section-six-h3-font-family;
+        font-size:$section-six-h3-font-size;
+        color:$section-six-h3-color;
+    }
+    p{
+        font-family:$section-six-p-font-family;
+        font-size:$section-six-p-font-size;
+        color:$section-six-p-color;
+    }
+    .btn{
+        padding-left: 40px;
+        padding-right: 40px;
+
+    }
+    .btn-outline-dark {
+		color: $section-six-button-text-color;
+		border-color: $section-six-button-border-color;
+		&:hover{
+		
+				color: $section-six-button-hover-text-color;
+				background-color: $section-six-button-hover-background-color;
+				border-color: $section-six-button-hover-border-color;
+
+		}
+    }
+}
+}

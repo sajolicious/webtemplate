@@ -1,0 +1,30 @@
+.section-fiv{
+  background-color: $sectionfiv-background;
+  text-align: center;
+  padding: 50px 10px;
+
+  h4{
+    font-family: $sectionfiv-h4-font-family;
+    font-size: $sectionfiv-h4-font-size;
+    font-weight: 500;
+    color: $sectionfiv-h4-font-size;
+  }
+
+  blockquote{
+    background-color: $sectionfiv-background-1;
+    color: $sectionfiv-h4-color;
+    padding: 60px;
+    min-height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+	height: 100%;
+    cite{
+      margin-top: 40px;
+      display: inline-block;
+      font-style: normal;
+	}
+ }
+}

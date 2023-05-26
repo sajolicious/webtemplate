@@ -1,0 +1,25 @@
+.section-thr .col-md-4 {
+  position: relative;
+  .postcard {
+    padding: 10vw 5vw 5vw 5vw;
+
+    width: 100%;
+    background: #ffffff;
+    em {
+      margin-bottom: 2vw;
+    }
+  }
+  img {
+    left: -20%;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .postcard {
+    position: absolute;
+    right: -20%;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 0px 0px #000000;
+  }
+}

@@ -1,0 +1,21 @@
+.form__sec{
+.form-control,.form-select{
+	border: 3px solid $form-border;
+    height: 45px;
+    margin-bottom: 20px;
+	color: $form-txt;
+	&:hover,&:active{
+		outline: none;
+		border: 3px solid $form-border;
+		
+	}
+}
+.form-btn{
+	background: $form-btn-bg;
+	color: $form-btn-clr;
+	font-size: 18px;
+	cursor: pointer;
+    height: 45px;
+	border: 0;
+}
+}

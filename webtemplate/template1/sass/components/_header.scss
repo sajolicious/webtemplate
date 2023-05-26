@@ -1,0 +1,45 @@
+.header-main{
+	background: $nav-bg;
+	color: $nav-txt-clr;
+	
+	.navbar-toggler{
+		span{			
+			color: $nav-txt-clr;
+		}
+	}
+	.navbar-collapse{
+		justify-content: center;
+	}
+	.navbar-nav{
+		justify-content: center;
+		a{		
+			color: $nav-txt-clr;
+			font-size: $nav-txt-size;
+			margin: 0 20px;
+			&:hover,&.active{
+				color: $nav-txt-active-clr;
+			}
+		}
+	}
+	.btn{
+		border: 2px solid $header-btn-brcolor;
+		color: $header-btn-txtcolor;
+		&:hover{
+			background: none;
+		}
+	}
+	
+	
+	@media (max-width:990px) {
+		.navbar-collapse{
+			.nav-item {
+				margin: 5px 0;
+			.nav-link{			
+				padding: 15px 0;
+				border-bottom: 1px solid;
+				text-align: center;
+			}
+			}
+		}
+	}
+}

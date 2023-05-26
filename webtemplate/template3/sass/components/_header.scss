@@ -1,0 +1,60 @@
+.header-nav {
+	 background: $header-background;
+	.nav-link {
+		color: $header-color;
+        font-size:$header-font-size;
+        font-family: $header-font-family;
+        text-transform: uppercase;
+        &:hover{
+            color:$header-hover-color;
+        }
+	}
+    .nav-item{
+        .active{color:$header-active-color;}
+    }
+}
+.navbar-brand{
+    font-family: $header-logo-font-family;
+    font-size:$header-logo-font-size;
+    color:$header-logo-color;
+    font-weight:700;
+    @media only screen and (min-width: 768px) {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;
+    display: block;
+    }
+
+    &:hover{
+        color:$header-logo-hover-color;
+    }
+}
+.navbar-toggler{
+    color:$header-toggle-btn-color;
+    border-color: $header-toggle-border-color;
+    .navbar-toggler-icon{
+    i{
+        padding-top:5px;
+    }
+}
+}
+
+
+
+// .collapse {
+// padding:10px 2px;
+// }
+
+.social-icons{
+    a{
+        color:$header-social-icon-a-color;
+        font-size: $header-social-icon-a-font-size;
+        text-decoration: none;
+        &:hover{
+            color:$header-social-icon-a-hover-color;
+        }
+        i{
+            font-size:$header-social-icon-a-i-font-size;
+        }
+    }
+}

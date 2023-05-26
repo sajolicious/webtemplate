@@ -1,0 +1,53 @@
+.section_five {
+	background: url(../img/template2.jpg) no-repeat center center fixed;
+	display: table;
+	height: 700px;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+
+
+	h2 {
+		padding:30px 0;
+		font-family: $section-five-h2-font-family;
+		font-weight: bold;
+		letter-spacing: 10px;
+		color:$section-five-h2-color;
+		
+        @media only screen and (max-width: 767px) {
+            font-size: $section-five-h2-font-size-mobile;
+
+        }
+        @media only screen and (min-width: 768px) {
+            font-size: $section-five-h2-font-size;
+
+        }
+	}
+
+	h3{
+		color:$section-five-h3-color;
+	}
+	.btn{
+        padding-left: 40px;
+        padding-right: 40px;
+
+    }
+	.btn-outline-light {
+		color: $section-five-button-text-color;
+		border-color: $section-five-button-border-color;
+		&:hover{
+		
+				color: $section-five-button-hover-text-color;
+				background-color: $section-five-button-hover-background-color;
+				border-color: $section-five-button-hover-border-color;
+
+		}
+	}
+
+	.content-top-img {
+		z-index: 2;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+}

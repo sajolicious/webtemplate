@@ -1,0 +1,32 @@
+.section-thr{
+  background-color: $sectionthr-background;
+  padding: 50px 10px;
+
+  h4{
+    font-family: $sectionthr-h4-font-family;
+    font-size: $sectionthr-h4-font-size;
+    font-weight: 500;
+    color: $sectionthr-h4-color;
+  }
+
+  ul{
+    position: relative;
+    padding-left: 50px;
+
+    li{
+      counter-increment: counter;
+      font-family: $sectionthr-li-font-family;
+      font-size: $sectionthr-li-font-size;
+      font-weight: 500;
+      color: $sectionthr-li-color;
+      list-style: none;
+      margin-top: 50px;
+
+      &:before{
+        content: "0" counter(counter) ".";
+        position: absolute;
+        left: 0;
+	  }
+	 }
+	}
+}

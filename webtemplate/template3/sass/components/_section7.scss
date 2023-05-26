@@ -1,0 +1,28 @@
+.section_seven {
+	display: table;
+	@media only screen and (max-width: 992px) {
+	height: 700px;
+	}
+	@media only screen and (max-width: 991px) {
+		height: auto;
+		}
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+  
+  .stripe-2 {
+	color: black;
+	background: repeating-linear-gradient(
+	  45deg,
+	  transparent,
+	  transparent 40px,
+	  #b4e8d5 70px,
+	  #b4e8d5 100px
+	),
+	linear-gradient(
+	  to bottom,
+	  #fff,
+	  #fff
+	)
+  }

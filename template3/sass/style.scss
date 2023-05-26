@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto&family=The+Nautigal:wght@700&display=swap');
+@import './default.scss';
+@import "components/_topheader.scss";
+@import "components/_header.scss";
+@import "components/_carousel.scss";
+@import "components/_section1.scss";
+@import "components/_section2.scss";
+@import "components/_section3.scss";
+@import "components/_section4.scss";
+@import "components/_section5.scss";
+@import "components/_section6.scss";
+@import "components/_section7.scss";
+@import "components/_footer.scss";
+
+body {
+    overflow-x: hidden;
+    font-family: $font-paragraph;
+  }
+  .icecream-page{
+    font-family: $font-paragraph;
+
+    .container-space{
+        padding:10px;
+    }
+ 
+   .br-xs{
+        @media only screen and (min-width: 768px) {
+        display:none;
+        }
+    }
+
+}

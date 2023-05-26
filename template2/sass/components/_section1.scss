@@ -1,0 +1,51 @@
+.section-one{
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  &:before{
+    content: '';
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .container *{
+    position: relative;
+    z-index: 1;
+  }
+  .logo{
+    font-size: $sectionone-logo-color;
+    font-family: $sectionone-logo-font-family;
+    color: $sectionone-logo-color;
+    text-align: right;
+	margin: 10px;
+  }
+  h1{
+    font-family: $sectionone-h1-font-family;
+    font-size: $sectionone-h1-font-size;
+    font-weight: 700;
+    color: $sectionone-h1-color;
+    margin-bottom: 30px;
+  }
+  h2{
+    font-family: $sectionone-h2-font-family;
+    font-size: $sectionone-h2-font-size;
+    color: $sectionone-h2-color;
+  }
+  .cus-link{
+    font-family: $sectionone-button-font-family;
+    font-size: $sectionone-button-font-size;
+    background-color: $sectionone-button-background;
+    color: $sectionone-button-color;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+	padding: 10px;
+	margin-bottom: 20px;
+	}
+}

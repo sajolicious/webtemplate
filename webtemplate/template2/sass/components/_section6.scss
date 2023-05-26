@@ -1,0 +1,57 @@
+.fullheight.section-six{
+  padding: 60px 0;
+  align-items: flex-end;
+  color: $sectionsix-p-color;
+}
+.section-six{
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  &:before{
+    content: '';
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+ }
+  .container *{
+    position: relative;
+    z-index: 1;
+ }
+  h4{
+    font-family: $sectionsix-h4-font-family;
+    font-size: $sectionsix-h4-font-size;
+    font-weight: 500;
+    color: $sectionsix-h4-color;
+ }
+  address, p{
+    font-family: $sectionsix-p-font-family;
+    font-size: $sectionsix-p-font-size;
+    font-weight: 500;
+    color: $sectionsix-p-color;
+
+    a{
+      color: $sectionsix-p-color;
+      text-decoration: none;
+	}
+ }
+  .flex-end{
+    display: flex;
+    align-items: flex-end;
+  }
+  .cus-link{
+    font-family: $sectionsix-button-font-family;
+    font-size: $sectionsix-button-font-size;
+    background-color: $sectionsix-button-background;
+    color: $sectionsix-button-color;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+	padding: 20px;
+  }
+}

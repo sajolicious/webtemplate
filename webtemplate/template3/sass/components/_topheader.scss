@@ -1,0 +1,8 @@
+.topheader {
+	background: $topheader-background;
+    .topheader-text {
+        color: $topheader-text-color;
+        padding: 15px;
+        font-family: $topheader-font-family;
+    }
+}

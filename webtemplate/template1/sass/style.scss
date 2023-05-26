@@ -1,0 +1,33 @@
+@import './default.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: $primary-font;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+a,a:hover {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+    }
+}
+img{
+	max-width: 100%;
+}
+
+@import "components/_header.scss";
+@import "components/_slider.scss";
+@import "components/_about.scss";
+@import "components/_tri-sec.scss";
+@import "components/_form.scss";
+@import "components/_gallery.scss";
+@import "components/_footer.scss";

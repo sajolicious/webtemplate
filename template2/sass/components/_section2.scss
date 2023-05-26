@@ -1,0 +1,17 @@
+.section-two{
+  background-color: $sectiontwo-background;
+  padding: 70px 10px;
+
+  h4{
+    font-family: $sectiontwo-h4-font-family;
+    font-size: $sectiontwo-h4-font-size;
+    font-weight: 500;
+    color: $sectiontwo-h4-color;
+  }
+  p{
+    font-family: $sectiontwo-p-font-family;
+    font-size: $sectiontwo-p-font-size;
+    font-weight: 500;
+    color: $sectiontwo-p-color;
+  }
+}

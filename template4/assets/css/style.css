@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins&display=swap");
+body {
+  height: 100%;
+  width: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: "Gentium Book Plus", serif;
+  background: #fcfbfa;
+  color: #272320;
+}
+body a {
+  color: #000000;
+  text-decoration: none !important;
+  border-bottom: 1px solid #000000;
+  font-style: italic;
+}
+body a:hover {
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section-default > .row {
+  height: 100vh;
+}
+.section-default span {
+  padding: 2em 0 1.5em 0;
+  opacity: 0.5;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  line-height: 150%;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  width: 100%;
+  border-top: 1px solid #000000;
+}
+.section-default p {
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+  line-height: 140%;
+  text-align: left;
+  font-family: "Gentium Book Plus", serif;
+  display: inline-block;
+}
+.section-default em {
+  margin-top: 2rem;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  line-height: 140%;
+  text-align: left;
+  font-family: "Gentium Book Plus", serif;
+  display: inline-block;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .section-default.container-fluid {
+    padding: 0;
+  }
+
+  .section-default > .row {
+    height: auto;
+  }
+
+  .text-column {
+    padding: 40px;
+  }
+}
+.weblogo {
+  display: flex;
+  height: 100vh;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeVideoBg {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.HomeVideoBg video {
+  height: 100vh;
+  max-width: inherit;
+}
+
+.navigation {
+  position: absolute;
+  z-index: 1;
+  right: 4vw;
+  top: 4vw;
+  text-transform: uppercase;
+}
+.navigation li {
+  list-style: none;
+  text-align: right;
+  line-height: 200%;
+}
+.navigation li a {
+  border: none;
+  font-style: normal;
+  color: #ffffff;
+}
+.navigation .NavHamburger button {
+  border: 1px solid #ffffff;
+  text-align: center;
+  color: #ffffff;
+  background: transparent;
+  float: right;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation ul.d-none {
+    display: block !important;
+  }
+
+  .NavHamburger {
+    display: none;
+  }
+}
+.section-thr .col-md-4 {
+  position: relative;
+}
+.section-thr .col-md-4 .postcard {
+  padding: 10vw 5vw 5vw 5vw;
+  width: 100%;
+  background: #ffffff;
+}
+.section-thr .col-md-4 .postcard em {
+  margin-bottom: 2vw;
+}
+.section-thr .col-md-4 img {
+  left: -20%;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .postcard {
+    position: absolute;
+    right: -20%;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 0px 0px #000000;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-fou > .row > div:first-child {
+    position: relative;
+    top: 4%;
+    right: -2%;
+    z-index: 1;
+  }
+  .section-fou > .row > div:nth-child(2) {
+    position: relative;
+    top: 14%;
+    left: -2%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-fou.section-default img {
+    margin-top: 8.5%;
+  }
+}
+footer span {
+  font-size: 5vw;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  padding: 10vw 0;
+  font-family: "Gentium Book Plus", serif;
+  color: #000000;
+}
+footer h3 {
+  font-size: 1rem;
+}
+footer p {
+  font-family: "Gentium Book Plus", serif;
+}
+
+@media screen and (max-width: 768px) {
+  footer span {
+    font-size: 14vw;
+    line-height: 110%;
+    padding: 25vw 0;
+    border-bottom: 1px solid #000000;
+  }
+  footer .col-md-4 {
+    margin-top: 10vw;
+    padding: 0 40px;
+  }
+}/*# sourceMappingURL=style.css.map */

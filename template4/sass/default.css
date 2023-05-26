@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins&display=swap");
+body {
+  height: 100%;
+  width: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: "Gentium Book Plus", serif;
+  background: #fcfbfa;
+  color: #272320;
+}
+body a {
+  color: #000000;
+  text-decoration: none !important;
+  border-bottom: 1px solid #000000;
+  font-style: italic;
+}
+body a:hover {
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section-default > .row {
+  height: 100vh;
+}
+.section-default span {
+  padding: 2em 0 1.5em 0;
+  opacity: 0.5;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  line-height: 150%;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  width: 100%;
+  border-top: 1px solid #000000;
+}
+.section-default p {
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+  line-height: 140%;
+  text-align: left;
+  font-family: "Gentium Book Plus", serif;
+  display: inline-block;
+}
+.section-default em {
+  margin-top: 2rem;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  line-height: 140%;
+  text-align: left;
+  font-family: "Gentium Book Plus", serif;
+  display: inline-block;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .section-default.container-fluid {
+    padding: 0;
+  }
+  .section-default > .row {
+    height: auto;
+  }
+  .text-column {
+    padding: 40px;
+  }
+}/*# sourceMappingURL=default.css.map */

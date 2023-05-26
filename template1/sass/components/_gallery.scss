@@ -1,0 +1,27 @@
+.gallery-sec {
+	.gallery--item{
+		background-size: cover;
+		background-repeat: none;
+		min-height: 300px;
+		&:hover {
+			.gallery--desc{
+				opacity: 1;
+			}
+		}
+		.gallery--desc{ 
+			margin: 0 -12px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			padding: 20px;
+			background: rgba(0,0,0,.5);
+			font-size: $gallery-txt-size;
+			color: $gallery-txt-color;
+			text-align: center;
+			opacity: 0;
+			transition: all 0.5s;
+			flex-direction: column;
+		}
+	}
+}
